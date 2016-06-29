@@ -236,6 +236,6 @@ if __name__ == "__main__":
         elif len(sys.argv[1:]) == 2:
                 game = SolarSystem((int(sys.argv[1]),int(sys.argv[2])))
         else:
-                print "The correct sintax is \'python pygravity X_size Y_size\'"
+                print "The correct syntax is \'python pygravity X_size Y_size\'"
                 sys.exit()
         game.main_loop()
